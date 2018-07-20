@@ -1,0 +1,9 @@
+﻿2|Engleza|13|13|2850
+2|1|vertical|1|love|Let___Rule
+1|1|orizontal|2|closed|Not open
+2|4|orizontal|3|eraser|At the other end of the pencil
+7|4|vertical|2|red|Hunt for ____ Octomber
+7|6|orizontal|4|dallas|Redskin rival's city
+6|1|vertical|3|dare|Triple dog
+10|4|vertical|4|relapse|To succumb ... again
+8|8|orizontal|5|cap|A night ...

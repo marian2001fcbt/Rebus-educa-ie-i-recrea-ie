@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Prima pagina">
+		<param name="Local" value="prima pagina.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tipuri de utilizator">
+		<param name="Local" value="utilizatori.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Continutul aplicatiei">
+		<param name="Local" value="Continut.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Logarea">
+			<param name="Local" value="logarea.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Inregistrarea unui nou utilizator">
+			<param name="Local" value="inregistrarea.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Meniul &quot;Rezolvare&quot;">
+			<param name="Local" value="Rezolvare rebus.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Meniul &quot;Vizualizare&quot;">
+			<param name="Local" value="Meniul vizualizare.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

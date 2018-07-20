@@ -1,0 +1,38 @@
+x|y|directia|nr|cuvant|cerinta
+1|1|orizontal|1|pilon|Stalp de rezistenta
+7|1|orizontal|1|laic|Mirean
+1|2|orizontal|2|emulsie|Amestec de doua lichide insacrosslubile
+9|2|orizontal|2|du|Adus la mijloc!
+1|3|orizontal|3|duce|Titlu superior marchizului
+6|3|orizontal|3|zgait|Holbat
+1|4|orizontal|4|ani|Au 12 luni
+5|4|orizontal|4|abator|Locul unde se sacrifica animalele
+1|5|orizontal|5|nadusi|A transpira
+8|5|orizontal|5|ate|Fire de cusut
+2|6|orizontal|6|eretic|Condamnat de Inchizitie
+1|7|orizontal|7|io|Prinse in cioc!
+4|7|orizontal|7|izolare|Punere in mod separat
+2|8|orizontal|8|vacar|Cow-boy de la noi
+9|8|orizontal|8|ur|In sura!
+1|9|orizontal|9|tipar|Model la croitorie
+7|9|orizontal|9|cala|Magazia navelor 
+1|10|orizontal|10|intreg|Tot
+8|10|orizontal|10|gat|Sustine capul oamenilor
+1|1|vertical|1|pedanti|Migaloi
+1|9|vertical|1|ti|Cutie!
+2|1|vertical|2|imuna|Aparata de boli
+2|7|vertical|2|ovin|Legat de oi
+3|1|vertical|3|lucide|Constiente
+3|8|vertical|3|apt|Capabil
+4|1|vertical|4|ole|Incurajate la corida
+4|5|vertical|4|uricar|Gramatic
+5|1|vertical|5|ns|Nes!
+5|4|vertical|5|asezare|Luarea unui loc
+6|2|vertical|6|izbitor|Frapant
+7|1|vertical|7|lega||A prinde cu ata
+7|6|vertical|7|ilic|Pieptar|
+8|3|vertical|8|ataca|A da asaltul
+8|9|vertical|8|ag|Simbolul argintului
+9|1|vertical|9|idiot|Lipsit de minte
+9|7|vertical|9|rula|A merge cu masina
+10|1|vertical|10|cutreierat|Strabatut

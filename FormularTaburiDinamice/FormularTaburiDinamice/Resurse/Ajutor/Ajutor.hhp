@@ -1,0 +1,11 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ajutor.chm
+Contents file=Continut.hhc
+Display compile progress=No
+Index file=Index.hhk
+Language=0x418 Românã (România)
+
+
+[INFOTYPES]
+

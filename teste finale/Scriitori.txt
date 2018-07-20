@@ -1,0 +1,25 @@
+2|scritori|10|8|1200
+4|1|orizontal|1|bz|Cub si zar!
+1|2|orizontal|2|fauritor|Creator
+2|3|orizontal|3|predata|Lectie transmisa
+1|4|orizontal|4|cuib|Culcusul pasarilor
+6|4|orizontal|4|rid|Cuta pe fata
+2|5|orizontal|5|scara|Te ajuta sa urci
+1|6|orizontal|6|anin|Arbore cu lemn usor
+6|6|orizontal|6|nul|Fara nici o valoare
+2|7|orizontal|7|eo|Teo la final!
+5|7|orizontal|7|acte|Parti in care se imparte piesa de teatru
+1|8|orizontal|8|hasdeu|Nume scriitor si filolog roman nascut la 1838 in Ucraina
+4|9|orizontal|9|artic|Situat la Polul Nord
+1|10|orizontal|10|munteanu|Nume poet si scriitor roman nascut in anul 1926 la Caracal
+2|1|vertical|2|lapusneanu|Domn al moldovei popularizat de scriitorul Costache Negruzzi
+3|2|vertical|3|uricios|Nesuferit
+4|1|vertical|4|breban|Nume scriitor si eseist roman nascut in anul 1934 la Baia Mare
+4|8|vertical|4|dat|Oferit
+5|1|vertical|5|zid|Insiruire de caramizi
+5|7|vertical|5|aere|Ifose
+6|2|vertical|6|tarancuta|Fata in straie populare
+7|1|vertical|7|roti|Cercuri motrice
+7|6|vertical|7|ut|Baut la sfarsit!
+7|9|vertical|7|in|Bun pentru sfori
+8|2|vertical|8|radulescu|Nume scriitor si filolog roman nascut in anul 1802 la Targoviste

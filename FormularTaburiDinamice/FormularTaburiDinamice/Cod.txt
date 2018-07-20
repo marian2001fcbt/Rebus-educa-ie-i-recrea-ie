@@ -1,0 +1,33 @@
+﻿
+SqlConnection Con = new SqlConnection(strConn);
+Con.Open();
+string strCmd = "select companyName from companyinfo where CompanyName='" + cmbCompName.SelectedValue + "';";
+SqlCommand Cmd = new SqlCommand(strCmd, Con);
+SqlDataAdapter da = new SqlDataAdapter(strCmd, Con);
+DataSet ds = new DataSet();
+Con.Close();
+da.Fill(ds);
+cmbCompName.DataSource = ds;
+cmbCompName.DisplayMember = "CompanyName";
+cmbCompName.ValueMember = "CompanyName";
+//cmbCompName.DataBind();
+cmbCompName.Enabled = true;
+
+ using (SqlConnection con = new SqlConnection(sirConectare))
+                {
+
+                    string sirSQL2 = "SELECT * FROM Rebuse WHERE IdRebusDB = @idRebus";
+                    SqlCommand cmd2 = new SqlCommand(sirSQL2, con);
+                    cmd2.Parameters.AddWithValue("@idRebus", Convert.ToInt32(antet[0].ToString()));
+
+                    con.Open();
+
+                    SqlDataAdapter da = new SqlDataAdapter(cmd2);
+                    DataTablr dt = new DataTable();
+                    da.Fill(dt);
+                    for(int i=0; i<dt.Rows.Count; i++)
+					{
+						cboRebus.Items.Add(dt.Rows[i]["TitluRebusDB"]);
+					}
+
+					}

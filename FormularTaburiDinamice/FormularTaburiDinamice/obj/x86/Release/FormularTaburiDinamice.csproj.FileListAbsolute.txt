@@ -1,0 +1,12 @@
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\bin\Release\Rebus.mdf
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\bin\Release\Rebus_log.ldf
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\bin\Release\FormularTaburiDinamice.exe.config
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\bin\Release\FormularTaburiDinamice.exe
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\bin\Release\FormularTaburiDinamice.pdb
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.Form1.resources
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.frmInregistrare.resources
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.frmLogare.resources
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.Properties.Resources.resources
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.csproj.GenerateResource.Cache
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.exe
+D:\Carmocanu\FormularTaburiDinamice\FormularTaburiDinamice\obj\x86\Release\FormularTaburiDinamice.pdb
