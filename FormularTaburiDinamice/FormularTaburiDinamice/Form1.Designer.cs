@@ -420,9 +420,10 @@
             // 
             // ddlRebus
             // 
+            this.ddlRebus.Dock = System.Windows.Forms.DockStyle.Left;
             this.ddlRebus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ddlRebus.FormattingEnabled = true;
-            this.ddlRebus.Location = new System.Drawing.Point(232, 31);
+            this.ddlRebus.Location = new System.Drawing.Point(197, 4);
             this.ddlRebus.Margin = new System.Windows.Forms.Padding(4);
             this.ddlRebus.Name = "ddlRebus";
             this.ddlRebus.Size = new System.Drawing.Size(308, 33);
@@ -432,8 +433,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(11, 34);
+            this.label2.Location = new System.Drawing.Point(4, 4);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(193, 25);
@@ -465,7 +467,7 @@
             // 
             this.dgvRebus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvRebus.ColumnHeadersVisible = false;
-            this.dgvRebus.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvRebus.Dock = System.Windows.Forms.DockStyle.Left;
             this.dgvRebus.Location = new System.Drawing.Point(0, 0);
             this.dgvRebus.Margin = new System.Windows.Forms.Padding(4);
             this.dgvRebus.Name = "dgvRebus";
@@ -671,6 +673,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1344, 690);
             this.Controls.Add(this.tabPrincipal);
             this.Controls.Add(this.menuStrip1);

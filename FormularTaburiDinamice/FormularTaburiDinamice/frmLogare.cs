@@ -114,7 +114,7 @@ namespace FormularTaburiDinamice
         private void frmLogare_FormClosing(object sender, FormClosingEventArgs e)
         {
            // e.Cancel = true;
-            Auxiliare.Iesire = 1;
+        //    Auxiliare.Iesire = 1;
         }
     }
 }

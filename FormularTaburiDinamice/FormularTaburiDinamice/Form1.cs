@@ -676,8 +676,8 @@ namespace FormularTaburiDinamice
        
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (Auxiliare.Iesire == 1)
-                Application.Exit();
+            //if (Auxiliare.Iesire == 1)
+            //   Application.Exit();
 
             if (Auxiliare.Limba == 2)
             {
