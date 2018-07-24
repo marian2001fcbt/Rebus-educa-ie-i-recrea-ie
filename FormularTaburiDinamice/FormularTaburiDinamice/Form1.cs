@@ -41,6 +41,8 @@ namespace FormularTaburiDinamice
         {
            
             InitializeComponent();
+            frmLimba flmb = new frmLimba();
+            flmb.ShowDialog();
             frmLogare fl = new frmLogare();
             fl.ShowDialog();
             tabPrincipal.Selected += new TabControlEventHandler(tabControl1_Selected);
@@ -104,7 +106,9 @@ namespace FormularTaburiDinamice
             }
             else
             {
-                MessageBox.Show("Trebuie sa fiti logat ca Administrator ca sa putei accesa acesta pagina!!!!");
+                if (Auxiliare.Limba == 2)
+                    MessageBox.Show("You must be logged in as Administrator to view this page!");
+                MessageBox.Show("Trebuie sa fiti logat ca Administrator ca sa putei accesa acesta pagina!");
                 this.tabPrincipal.SelectTab("tabPaginaRezolvare");
             }
            
@@ -672,7 +676,32 @@ namespace FormularTaburiDinamice
        
         private void Form1_Load(object sender, EventArgs e)
         {
+            if (Auxiliare.Limba == 2)
+            {
+                administrareToolStripMenuItem.Text = "Administration";
+                logareToolStripMenuItem.Text = "Log in";
+                inregistrareToolStripMenuItem.Text = "Register new member";
+                adaugareRebusToolStripMenuItem.Text = "Add new crossword";
+                recuperareContToolStripMenuItem.Text = "Recover account data";
+                rebusToolStripMenuItem.Text = "Crossword";
+                selectareRebusToolStripMenuItem.Text = "Select crossword";
+                tiparireToolStripMenuItem.Text = "Print crossword";
+                iesireToolStripMenuItem1.Text = "Exit";
+                delogareToolStripMenuItem.Text = "Log off";
+                iesireDinAplicatieToolStripMenuItem.Text = "Exit from application";
+                ajutorToolStripMenuItem.Text = "Help";
+                despreToolStripMenuItem.Text = "About";
+                label1.Text = "Select crossword:";
+                label2.Text = "Select crossword:";
+                label9.Text = "Horizontal";
+                label10.Text = "Vertical";
+                label3.Text = "Estimated time";
+                label4.Text = "Remaining time";
+                btnSalvare.Text = "Save";
+                tabAdaugareRebus.Text = "View crossword";
+                tabPaginaRezolvare.Text = "Resolve crossword";
 
+            }
             if (Auxiliare.UtilizatorLogat == 1)
             {
                 this.tabPrincipal.TabPages[0].Visible = true;
@@ -964,7 +993,7 @@ namespace FormularTaburiDinamice
            //int startY = ddlRebus.Height + 20;
             //int Offset = 40;
             int Offset = dgvRebus.Height + 20;
-            MessageBox.Show("Masura inaltime rebus: " + Offset.ToString() + "   " + numeRebus.ToString());
+            //MessageBox.Show("Masura inaltime rebus: " + Offset.ToString() + "   " + numeRebus.ToString());
             graphics.DrawString(numeRebus, new Font("Courier New", 10), new SolidBrush(Color.Black), startX, startY + Offset);
             Offset = Offset + 20;
             string underLine = "------------------------------------------";
@@ -1029,7 +1058,10 @@ namespace FormularTaburiDinamice
                 rec.Show();
             }
             else
-                MessageBox.Show("Trebuie sa fiti logat ca Administrator ca sa puteti recupera informatiile despre contul dvs. Va rugam sa va adresati unui administrator.");
+                if (Auxiliare.Limba == 2)
+                    MessageBox.Show("You must be logged in as Administrator in order to recover informations about your account. Please ask an administrator to recover your informations.");
+                else
+                    MessageBox.Show("Trebuie sa fiti logat ca Administrator ca sa puteti recupera informatiile despre contul dvs. Va rugam sa va adresati unui administrator.");
             
         }
 

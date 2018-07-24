@@ -25,6 +25,13 @@ namespace FormularTaburiDinamice
             label3.Visible = false;
             lblNumeUtilizator.Visible = false;
             lblParola.Visible = false;
+            if (Auxiliare.Limba == 2)
+            {
+                label1.Text = "Enter Email adress:";
+                label2.Text = "User name:";
+                label3.Text = "Password:";
+                btnRecuperare.Text = "Recover!";
+            }
         }
 
         private void btnRecuperare_Click(object sender, EventArgs e)

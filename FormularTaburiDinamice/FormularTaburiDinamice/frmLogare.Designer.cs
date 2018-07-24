@@ -130,7 +130,7 @@
             this.MinimizeBox = false;
             this.Name = "frmLogare";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Logare";
+            this.Text = "Logare || Log in";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogare_FormClosing);
             this.Load += new System.EventHandler(this.frmLogare_Load);
             this.ResumeLayout(false);

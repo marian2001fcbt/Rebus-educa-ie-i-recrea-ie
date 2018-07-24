@@ -15,12 +15,28 @@ namespace FormularTaburiDinamice
 {
     public partial class frmInregistrare : Form
     {
-
         char tipUtilizator;
         string sirConectare = System.Configuration.ConfigurationManager.ConnectionStrings["sirConfigurareDB"].ConnectionString;
         //Format expresie verificare email
         Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-        
+         private void frmInregistrare_Load(object sender, EventArgs e)
+        {
+            frmInregistrare fi = new frmInregistrare();
+            fi.Text = "Inregistrare";
+            #region engleza
+            if (Auxiliare.Limba == 2)
+            {
+                label1.Text = "Username";
+                label2.Text = "Password";
+                label3.Text = "Confirm password";
+                label4.Text = "Email adress";
+                label5.Text = "User type";
+                button1.Text = "Register!";
+                button2.Text = "Abort";
+            }
+            #endregion engleza
+        }
+
         public frmInregistrare()
         {
             InitializeComponent();
@@ -79,25 +95,37 @@ namespace FormularTaburiDinamice
 
                                     //con.Open();
                                     cmd.ExecuteNonQuery();
-                                    MessageBox.Show("Inregistrarea a fost adaugata cu scucces!");
+                                    if (Auxiliare.Limba == 2)
+                                        MessageBox.Show("Registration succeded!");
+                                    else
+                                        MessageBox.Show("Inregistrarea a fost adaugata cu scucces!");
                                     this.Hide();
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Utilizatorul deja exista");
+                                    if (Auxiliare.Limba == 2)
+                                        MessageBox.Show("User already exist!");
+                                    else
+                                        MessageBox.Show("Utilizatorul deja exista!");
                                 }
                             }
                             #endregion
                         }
                         else
                         {
-                            MessageBox.Show("Numai un administrator poate crea un cont de tip Administrator!");
+                            if (Auxiliare.Limba == 2)
+                                MessageBox.Show("Only an administrator can create an Admin account!");
+                            else
+                             MessageBox.Show("Numai un administrator poate crea un cont de tip Administrator!");
                             cboTipUtilizator.Focus();
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Formatul adresei de email incorect!!!");
+                        if (Auxiliare.Limba == 2)
+                            MessageBox.Show("Incorrect Email adress format!");
+                        else
+                            MessageBox.Show("Formatul adresei de email incorect!");
                     }
                     #endregion
 
@@ -105,7 +133,10 @@ namespace FormularTaburiDinamice
                 }
                 else
                 {
-                    MessageBox.Show("Campurile parola si Repeta parola nu sunt identice!!!!");
+                    if (Auxiliare.Limba == 2)
+                        MessageBox.Show("The Password and Confirm password fields do not match!");
+                    else
+                    MessageBox.Show("Campurile parola si Repeta parola nu sunt identice!");
                     txtParola.Clear();
                     txtReParola.Clear();
                     txtParola.Focus();
@@ -114,7 +145,10 @@ namespace FormularTaburiDinamice
             }
             else
             {
-                MessageBox.Show("Campurile Nume utilizator si Parola sunt obligatorii!!!");
+                if (Auxiliare.Limba == 2)
+                    MessageBox.Show("The User Name and Password fields must be filled!");
+                else
+                    MessageBox.Show("Campurile Nume utilizator si Parola sunt obligatorii!");
             }
 
             #endregion
@@ -125,5 +159,7 @@ namespace FormularTaburiDinamice
             Auxiliare.UtilizatorLogat = 3;
             this.Close();
         }
+
+       
     }
 }

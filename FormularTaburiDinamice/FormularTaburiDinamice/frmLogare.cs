@@ -18,7 +18,20 @@ namespace FormularTaburiDinamice
         {
             InitializeComponent();
             this.ControlBox = false;
+            #region Engleza
+            if (Auxiliare.Limba == 2)
+            {
+                label1.Text = "User name:";
+                label2.Text = "Password:";
+                btnLogare.Text = " Log in";
+                btnVizitator.Text = "Guest";
+                lnkInregistrare.Text = "Register";
+            }
+            #endregion Engleza
         }
+        
+        
+
 
         private void lnkInregistrare_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -63,12 +76,17 @@ namespace FormularTaburiDinamice
                             //MessageBox.Show("Nr inregistrari: " + count.ToString() + " utilizator de tip: " + Auxiliare.UtilizatorLogat.ToString());
                         
                             this.Close();
+                            frmLimba flb = new frmLimba();
+                            flb.Close();
                            // Form1 fa = new Form1();
                             //fa.ShowDialog();
                         }
                         else
                         {
-                            MessageBox.Show("Autentificare nereusita. Nume sau parola eronata");
+                            if (Auxiliare.Limba == 2)
+                                MessageBox.Show("Failed to autentificate. Username or password incorrect. Please retry.");
+                            else
+                                MessageBox.Show("Autentificare nereusita. Nume sau parola eronata");
                             txtNumeLogare.Clear();
                             txtParolaLogare.Clear();
                             txtNumeLogare.Focus();
@@ -77,7 +95,10 @@ namespace FormularTaburiDinamice
                 }
                 else
                 {
-                    MessageBox.Show("Campurile Nume utilizator si Parola sunt obligatorii!!!");
+                    if (Auxiliare.Limba == 2)
+                        MessageBox.Show("You must fill the Username and Password fields!");
+                    else
+                        MessageBox.Show("Campurile Nume utilizator si Parola sunt obligatorii!");
                     txtNumeLogare.Focus();
                     txtParolaLogare.Clear();
                 }
@@ -87,10 +108,13 @@ namespace FormularTaburiDinamice
         {
             Auxiliare.UtilizatorLogat = 3;
             this.Close();
+            frmLimba flb = new frmLimba();
+            flb.Close();
         }
 
         private void frmLogare_FormClosing(object sender, FormClosingEventArgs e)
         {
+           // e.Cancel = true;
         }
     }
 }

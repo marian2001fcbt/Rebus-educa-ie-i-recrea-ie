@@ -47,7 +47,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DarkRed;
             this.button1.Location = new System.Drawing.Point(428, 398);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(205, 59);
             this.button1.TabIndex = 18;
@@ -60,7 +60,7 @@
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.DarkRed;
             this.txtEmail.Location = new System.Drawing.Point(305, 251);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(327, 30);
             this.txtEmail.TabIndex = 17;
@@ -81,7 +81,7 @@
             this.txtReParola.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtReParola.ForeColor = System.Drawing.Color.DarkRed;
             this.txtReParola.Location = new System.Drawing.Point(305, 194);
-            this.txtReParola.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtReParola.Margin = new System.Windows.Forms.Padding(4);
             this.txtReParola.Name = "txtReParola";
             this.txtReParola.PasswordChar = '*';
             this.txtReParola.Size = new System.Drawing.Size(327, 30);
@@ -95,7 +95,7 @@
             this.label3.Location = new System.Drawing.Point(49, 194);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(201, 32);
+            this.label3.Size = new System.Drawing.Size(248, 32);
             this.label3.TabIndex = 14;
             this.label3.Text = "Repetati parola";
             // 
@@ -104,7 +104,7 @@
             this.txtParola.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtParola.ForeColor = System.Drawing.Color.DarkRed;
             this.txtParola.Location = new System.Drawing.Point(305, 139);
-            this.txtParola.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtParola.Margin = new System.Windows.Forms.Padding(4);
             this.txtParola.Name = "txtParola";
             this.txtParola.PasswordChar = '*';
             this.txtParola.Size = new System.Drawing.Size(327, 30);
@@ -127,7 +127,7 @@
             this.txtNumeUtilizator.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumeUtilizator.ForeColor = System.Drawing.Color.DarkRed;
             this.txtNumeUtilizator.Location = new System.Drawing.Point(305, 82);
-            this.txtNumeUtilizator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumeUtilizator.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumeUtilizator.Name = "txtNumeUtilizator";
             this.txtNumeUtilizator.Size = new System.Drawing.Size(327, 30);
             this.txtNumeUtilizator.TabIndex = 11;
@@ -163,7 +163,7 @@
             "Administrator",
             "Utilizator"});
             this.cboTipUtilizator.Location = new System.Drawing.Point(305, 314);
-            this.cboTipUtilizator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboTipUtilizator.Margin = new System.Windows.Forms.Padding(4);
             this.cboTipUtilizator.Name = "cboTipUtilizator";
             this.cboTipUtilizator.Size = new System.Drawing.Size(327, 33);
             this.cboTipUtilizator.TabIndex = 21;
@@ -173,7 +173,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.DarkRed;
             this.button2.Location = new System.Drawing.Point(73, 398);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(205, 59);
             this.button2.TabIndex = 22;
@@ -198,10 +198,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNumeUtilizator);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmInregistrare";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmInregistrare";
+            this.Text = "Inregistrare || Register";
+            this.Load += new System.EventHandler(this.frmInregistrare_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

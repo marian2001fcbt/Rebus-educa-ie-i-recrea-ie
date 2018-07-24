@@ -75,6 +75,12 @@
     <Compile Include="frmInregistrare.Designer.cs">
       <DependentUpon>frmInregistrare.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLimba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLimba.Designer.cs">
+      <DependentUpon>frmLimba.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     <EmbeddedResource Include="frmInregistrare.resx">
       <DependentUpon>frmInregistrare.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLimba.resx">
+      <DependentUpon>frmLimba.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogare.resx">
       <DependentUpon>frmLogare.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +123,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
     <None Include="bin\Debug\FormularTaburiDinamice.vshost.exe.manifest" />
@@ -154,6 +164,8 @@
       <DependentUpon>Rebus.mdf</DependentUpon>
     </Content>
     <Content Include="Resurse\CerinteRebus1.txt" />
+    <None Include="Resurse\United-Kingdom-Flag.png" />
+    <None Include="Resurse\Romania-Flag.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

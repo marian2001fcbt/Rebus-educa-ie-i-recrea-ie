@@ -15,5 +15,13 @@ namespace FormularTaburiDinamice
             get { return utilizatorLogat; }
             set { utilizatorLogat = value; }
         }
+
+            static int limba;
+
+            public static int Limba
+            {
+                get { return limba; }
+                set { limba = value; }
+        }
     }
 }
