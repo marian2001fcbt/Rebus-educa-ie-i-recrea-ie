@@ -80,7 +80,7 @@
             // 
             this.lnkInregistrare.AutoSize = true;
             this.lnkInregistrare.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lnkInregistrare.Location = new System.Drawing.Point(321, 287);
+            this.lnkInregistrare.Location = new System.Drawing.Point(318, 292);
             this.lnkInregistrare.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkInregistrare.Name = "lnkInregistrare";
             this.lnkInregistrare.Size = new System.Drawing.Size(106, 20);

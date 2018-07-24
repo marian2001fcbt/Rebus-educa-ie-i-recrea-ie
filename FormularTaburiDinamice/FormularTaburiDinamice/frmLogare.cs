@@ -17,7 +17,6 @@ namespace FormularTaburiDinamice
         public frmLogare()
         {
             InitializeComponent();
-            this.ControlBox = false;
             #region Engleza
             if (Auxiliare.Limba == 2)
             {
@@ -115,6 +114,7 @@ namespace FormularTaburiDinamice
         private void frmLogare_FormClosing(object sender, FormClosingEventArgs e)
         {
            // e.Cancel = true;
+            Auxiliare.Iesire = 1;
         }
     }
 }
